@@ -9,7 +9,7 @@ import java.util.List;
 public class StudentService {
 
     @GetMapping
-    public List<Student> getStudents() {
+    public List<Student> getStudentskk() {
         return List.of(
                 new Student(
                         1L,
