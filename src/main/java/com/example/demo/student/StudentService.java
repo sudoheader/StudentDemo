@@ -34,7 +34,6 @@ public class StudentService {
     }
 
     public void deleteStudent(Long studentId) {
-//        studentRepository.findById(studentId);
         boolean exists = studentRepository.existsById(studentId);
         if (!exists) {
             throw new IllegalStateException(
